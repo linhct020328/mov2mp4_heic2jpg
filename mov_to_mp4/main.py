@@ -14,7 +14,7 @@ def convert_to_mp4(input_file, output_file):
 
 def main():
     # Replace 'your_custom_folder_path' with the actual path to your folder containing HEIC files
-    folder_dir = 'C:/Users/THUY LINH/OneDrive/Documents/PyCharm/mov_to_mp4/mov'
+    folder_dir = '../mov_to_mp4/mov'
     script_directory = os.path.dirname(os.path.abspath(__file__))
     input_directory = os.path.join(script_directory, folder_dir)
 
